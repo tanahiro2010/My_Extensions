@@ -1,0 +1,14 @@
+{
+    "name": "僕の拡張機能",
+    "manifest_version": 3,
+    "version": "1.0",
+
+    "description": "変な拡張機能",
+
+    "content_scripts":[
+        {
+            "matches": ["*://*/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
